@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
+.red-box {
+  background: red;
+  top: 0;
+  left: 0;
+}
+
+.green-box {
+  background: green;
+  top: 0;
+  right: 0;
+}
+
+.yellow-box {
+  background: yellow;
+  bottom: 0;
+  left: 0;
+}
+
+.purple-box {
+  background: purple;
+  bottom: 0;
+  right: 0;
+}
+
+.box-corner-circle .box-corner-circle-top-left {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+}
+
+.box-corner-circle .box-corner-circle-top-right {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+}
+
+.box-corner-circle .box-corner-circle-bottom-left {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+}
+
+.box-corner-circle .box-corner-circle-bottom-right {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+}
+
+.box-corner-circle-top-left {
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.box-corner-circle-top-right {
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.box-corner-circle-bottom-left {
+  bottom: 0;
+  left: 0;
+  transform: translate(-50%, 50%);
+}
+
+.box-corner-circle-bottom-right {
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+}
+
+.center-square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background: white;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-red-square-circle {
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+}
+
+.box-center-circl .circle-group {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-group .white-circle {
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+}
+
+.circle-group .red-square {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: red;
+}
+
+.circle-group.mid-top {
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.circle-group.mid-right {
+  top: 50%;
+  right: 25%;
+  transform: translateY(-50%);
+}
+
+.circle-group.mid-left {
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+}
+
+.circle-group.mid-bottom {
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
