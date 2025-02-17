@@ -8,89 +8,63 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
-  position: absolute;
   width: 50%;
   height: 50%;
+  position: relative;
 }
 
 .red-box {
   background: red;
-  top: 0;
-  left: 0;
 }
 
 .green-box {
   background: green;
-  top: 0;
-  right: 0;
 }
 
 .yellow-box {
-  background: yellow;
-  bottom: 0;
-  left: 0;
+  background: orange;
 }
 
 .purple-box {
   background: purple;
-  bottom: 0;
-  right: 0;
 }
 
-.box-corner-circle .box-corner-circle-top-left {
+.corner-circle {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background: white;
 }
 
-.box-corner-circle .box-corner-circle-top-right {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background: white;
-}
-
-.box-corner-circle .box-corner-circle-bottom-left {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background: white;
-}
-
-.box-corner-circle .box-corner-circle-bottom-right {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background: white;
-}
-
-.box-corner-circle-top-left {
+.top-left {
+  border-top-left-radius: 50%;
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
 }
 
-.box-corner-circle-top-right {
+.top-right {
+  border-top-right-radius: 50%;
   top: 0;
   right: 0;
   transform: translate(50%, -50%);
 }
 
-.box-corner-circle-bottom-left {
+.bottom-left {
+  border-bottom-left-radius: 50%;
   bottom: 0;
   left: 0;
   transform: translate(-50%, 50%);
 }
 
-.box-corner-circle-bottom-right {
+.bottom-right {
+  border-bottom-right-radius: 50%;
   bottom: 0;
   right: 0;
   transform: translate(50%, 50%);
@@ -109,54 +83,49 @@ body {
   align-items: center;
 }
 
-.square-red-square-circle {
-  width: 50px;
-  height: 50px;
+.red-circle {
+  width: 60px;
+  height: 60px;
   background: red;
   border-radius: 50%;
 }
 
-.box-center-circl .circle-group {
+.centered-circle-group {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.circle-group .white-circle {
   width: 120px;
   height: 120px;
   background: white;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.circle-group .red-square {
-  position: absolute;
+.red-square {
   width: 50px;
   height: 50px;
   background: red;
 }
 
-.circle-group.mid-top {
-  top: 25%;
+.top-left-circle {
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%, -50%);
 }
 
-.circle-group.mid-right {
+.top-right-circle {
   top: 50%;
   right: 25%;
   transform: translateY(-50%);
 }
 
-.circle-group.mid-left {
+.bottom-left-circle {
   top: 50%;
   left: 25%;
   transform: translateY(-50%);
 }
 
-.circle-group.mid-bottom {
+.bottom-right-circle {
   bottom: 25%;
   left: 50%;
   transform: translateX(-50%);
