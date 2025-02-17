@@ -6,7 +6,7 @@ body {
 
 #logo-container {
   display: flex;
-  font-size: 15px;
+  font-size: 20px;
   margin-right: 20px;
 }
 
@@ -43,7 +43,7 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -75,4 +75,59 @@ nav ul li ul.dropdown-content li a:hover {
 
 nav ul li:hover ul.dropdown-content {
   display: block;
+}
+
+#webpages {
+  padding: 100px 20px 20px 20px;
+  text-align: center;
+}
+
+#webpages .btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#webpages .btns a button {
+  background-color: #22438c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#webpages .btns a button:hover {
+  background-color: #112c66;
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+
+#footer {
+  background-color: #22438c;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#title {
+  font-size: 30px;
+  margin: 0;
+}
+
+#info {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#footer {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
 }
