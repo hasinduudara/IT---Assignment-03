@@ -19,7 +19,6 @@
         background-color: white;
         font-family: "Roboto", sans-serif;
       }
-
       #logo {
         width: 100%;
         height: 50px;
@@ -55,6 +54,31 @@
         color: black;
         text-decoration: none;
       }
+      .sidebar {
+        position: absolute;
+        left: 0;
+        top: 12vh;
+        width: 200px;
+        padding: 20px;
+        background-color: purple;
+        height: auto;
+        min-height: 100vh;
+      }
+
+      .sidebar nav ul {
+        list-style: none;
+      }
+
+      .sidebar nav li {
+        margin-bottom: 15px;
+      }
+
+      .sidebar nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 600;
+        transition: color 0.3s;
+      }
     </style>
   </head>
   <body>
@@ -71,6 +95,27 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section id="side-bar">
+        <aside class="sidebar">
+          <nav>
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-tools"></i>Services</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-address-book"></i>Contacts</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-circle-info"></i>About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+    </main>
   </body>
 </html>
