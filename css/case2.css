@@ -87,16 +87,14 @@ footer {
   align-items: center;
 }
 .image-bar {
-  /* margin: 10px; */
   display: flex;
   justify-content: space-around;
-  /* border: 1px solid black; */
   padding: 10px;
 }
 .imges {
-  width: 200px;
-  padding: 80px;
-  height: auto;
+  width: 300px;
+  /* padding: 10px; */
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
