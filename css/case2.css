@@ -43,8 +43,7 @@ main {
   display: flex;
 }
 aside {
-  width: 250px;
-  /* top: 12vh; */
+  width: 200px;
   background-color: purple;
   position: relative;
 }
@@ -92,9 +91,8 @@ footer {
   padding: 10px;
 }
 .imges {
-  width: 300px;
-  /* padding: 10px; */
-  height: 300px;
+  width: 250px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
