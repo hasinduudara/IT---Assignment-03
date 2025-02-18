@@ -100,6 +100,20 @@
         justify-content: center;
         align-items: center;
       }
+      .image-bar {
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+      }
+      .imges {
+        width: 35%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+      }
     </style>
   </head>
   <body>
@@ -126,7 +140,17 @@
         </ul>
       </aside>
       <div class="content">
-        <img src="your_image.jpg" alt="Content Image" />
+        <div class="image-bar">
+          <div class="imges">
+            <img src="/assets/images/gif.gif" alt="image-1" />
+          </div>
+          <div class="imges">
+            <img src="/assets/images/gif.gif" alt="image-2" />
+          </div>
+          <div class="imges">
+            <img src="/assets/images/gif.gif" alt="image-3" />
+          </div>
+        </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
           labore natus nemo perferendis sunt. Aperiam atque blanditiis dolore
