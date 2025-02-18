@@ -23,7 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 12px;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   border: 2px solid black;
@@ -44,7 +44,7 @@ main {
 }
 aside {
   width: 250px;
-  top: 12vh;
+  /* top: 12vh; */
   background-color: purple;
   position: relative;
 }
@@ -87,13 +87,15 @@ footer {
   align-items: center;
 }
 .image-bar {
-  margin: 20px 0;
+  /* margin: 10px; */
   display: flex;
-  justify-content: space-between;
-  border: 1px solid black;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  padding: 10px;
 }
 .imges {
-  width: 35%;
+  width: 200px;
+  padding: 80px;
   height: auto;
   display: flex;
   justify-content: center;
