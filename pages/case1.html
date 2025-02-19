@@ -5,7 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Case 1</title>
     <link rel="icon" href="/assets/images/assignment.png" />
-    <link rel="stylesheet" href="/css/case-1.css" />
+    <!-- <link rel="stylesheet" href="/css/case-1.css" /> -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .box {
+        width: 50%;
+        height: 50%;
+        position: relative;
+      }
+
+      .red-box {
+        background: red;
+      }
+
+      .green-box {
+        background: green;
+      }
+
+      .yellow-box {
+        background: orange;
+      }
+
+      .purple-box {
+        background: purple;
+      }
+
+      .corner-circle {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: white;
+      }
+
+      .top-left {
+        border-top-left-radius: 50%;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+      }
+
+      .top-right {
+        border-top-right-radius: 50%;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+      }
+
+      .bottom-left {
+        border-bottom-left-radius: 50%;
+        bottom: 0;
+        left: 0;
+        transform: translate(-50%, 50%);
+      }
+
+      .bottom-right {
+        border-bottom-right-radius: 50%;
+        bottom: 0;
+        right: 0;
+        transform: translate(50%, 50%);
+      }
+
+      .center-square {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        background: white;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .red-circle {
+        width: 60px;
+        height: 60px;
+        background: red;
+        border-radius: 50%;
+      }
+
+      .centered-circle-group {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .red-square {
+        width: 50px;
+        height: 50px;
+        background: red;
+      }
+
+      .top-left-circle {
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%, -50%);
+      }
+
+      .top-right-circle {
+        top: 50%;
+        right: 25%;
+        transform: translateY(-50%);
+      }
+
+      .bottom-left-circle {
+        top: 50%;
+        left: 25%;
+        transform: translateY(-50%);
+      }
+
+      .bottom-right-circle {
+        bottom: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    </style>
   </head>
   <body>
     <div class="container">
