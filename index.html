@@ -5,7 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Internet Technology - Assignment 03</title>
     <link rel="icon" href="/assets/images/assignment.png" />
-    <link rel="stylesheet" href="/css/main.css" />
+    <!-- <link rel="stylesheet" href="/css/main.css" /> -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+      .header {
+        background-color: blue;
+        color: white;
+        padding: 15px;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      .content {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      div .text {
+        font-size: 25px;
+        margin: 10px 0;
+        font-weight: bold;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+      }
+      .button-column {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .button {
+        background-color: blue;
+        color: white;
+        padding: 20px 40px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .button:hover {
+        background-color: darkblue;
+      }
+      footer {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
     <main>
@@ -16,29 +78,28 @@
             <p>Third Assignment for Internet Technology.</p>
             <p>Click the buttons below to navigate to related case pages.</p>
           </div>
-          <br />
           <div class="buttons">
             <div class="button-column">
-              <button class="button" aria-label="Navigate to Case 1">
-                Case 1
-              </button>
-              <button class="button" aria-label="Navigate to Case 2">
-                Case 2
-              </button>
-              <button class="button" aria-label="Navigate to Case 3">
-                Case 3
-              </button>
+              <a href="/pages/case1.html" target="_blank"
+                ><button class="button">Case 1</button></a
+              >
+              <a href="/pages/case2.html" target="_blank"
+                ><button class="button">Case 2</button></a
+              >
+              <a href="/pages/case3.html" target="_blank"
+                ><button class="button">Case 3</button></a
+              >
             </div>
             <div class="button-column">
-              <button class="button" aria-label="Navigate to Case 4">
-                Case 4
-              </button>
-              <button class="button" aria-label="Navigate to Case 5">
-                Case 5
-              </button>
-              <button class="button" aria-label="Navigate to Case 6">
-                Case 6
-              </button>
+              <a href="/pages/case4.html" target="_blank"
+                ><button class="button">Case 4</button></a
+              >
+              <a href="/pages/case5.html" target="_blank"
+                ><button class="button">Case 5</button></a
+              >
+              <a href="/pages/case6.html" target="_blank"
+                ><button class="button">Case 6</button></a
+              >
             </div>
           </div>
         </div>
