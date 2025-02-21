@@ -1,59 +1,53 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-#container {
+.container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
 }
-.box {
-  width: 100%;
-  height: 100%;
+
+.cart {
   border: 1px solid black;
 }
-.box-1 {
-  background-color: red;
-  grid-column: 1 / 3;
+
+.box1 {
+  background-color: #fe0000;
+  grid-column: 1/3;
+  grid-row: 1/2;
 }
-.box-2 {
-  background-color: green;
+
+.box2 {
+  background-color: #008001;
 }
-.box-3 {
-  background-color: orangered;
-  /* grid-row: 1 / 4; */
+
+.box3 {
+  background-color: #ff4500;
+  grid-column: 4/5;
+  grid-row: 1/4;
 }
-.box-4 {
-  background-color: purple;
+
+.box4 {
+  background-color: #81007f;
 }
-.box-5 {
-  background-color: hotpink;
+
+.box5 {
+  background-color: #ff1494;
 }
-.box-6 {
-  background-color: blue;
+
+.box6 {
+  background-color: #0000fe;
 }
-.box-7 {
-  background-color: brown;
+
+.box7 {
+  background-color: #a52b2a;
 }
-.box-8 {
-  background-color: pink;
-}
-.box-9 {
-  background-color: indigo;
-  grid-column: 2 / 4;
-}
-.box-10 {
-  background-color: yellow;
-}
-.box-11 {
-  background-color: steelblue;
-}
-.box-12 {
-  background-color: cyan;
+
+.box8 {
+  background-color: #5800b6;
+  grid-column: 2/4;
+  grid-row: 3/4;
 }
