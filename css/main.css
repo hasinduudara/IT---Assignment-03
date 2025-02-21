@@ -33,13 +33,13 @@ div .text {
 .buttons {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 50px;
   flex-wrap: wrap;
 }
 .button-column {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 .button {
   background-color: blue;
